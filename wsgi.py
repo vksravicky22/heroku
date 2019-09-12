@@ -1,7 +1,7 @@
 from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv())
 
-from app import app as app
+from app import app as application
 
 if __name__ == '__main__':
-    app.run()
+    application.run()
