@@ -1,1 +1,1 @@
-worker: gunicorn -c gunicorn.conf.py wsgi
+web: gunicorn -c gunicorn.conf.py wsgi
